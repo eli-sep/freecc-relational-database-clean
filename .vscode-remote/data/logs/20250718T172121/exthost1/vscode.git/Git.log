@@ -1,0 +1,32 @@
+2025-07-18 17:21:25.577 [info] [main] Log level: Info
+2025-07-18 17:21:25.577 [info] [main] Validating found git in: "git"
+2025-07-18 17:21:25.577 [info] [main] Using git "2.43.0" from "git"
+2025-07-18 17:21:25.577 [info] [Model][doInitialScan] Initial repository scan started
+2025-07-18 17:21:25.577 [info] > git rev-parse --show-toplevel [2ms]
+2025-07-18 17:21:25.577 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-07-18 17:21:25.577 [info] [Model][openRepository] Opened repository (path): /workspace/project
+2025-07-18 17:21:25.577 [info] [Model][openRepository] Opened repository (real path): /workspace/project
+2025-07-18 17:21:25.577 [info] > git config --get commit.template [47ms]
+2025-07-18 17:21:25.577 [info] > git rev-parse --show-toplevel [48ms]
+2025-07-18 17:21:25.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-07-18 17:21:25.578 [info] > git rev-parse --show-toplevel [5ms]
+2025-07-18 17:21:25.578 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-07-18 17:21:25.578 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2025-07-18 17:21:25.578 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-07-18 17:21:25.579 [info] > git status -z -uall [6ms]
+2025-07-18 17:21:25.581 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-07-18 17:21:25.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-07-18 17:21:25.643 [info] > git config --get commit.template [9ms]
+2025-07-18 17:21:25.650 [info] > git config --get --local branch.main.vscode-merge-base [7ms]
+2025-07-18 17:21:25.655 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-07-18 17:21:25.658 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/project/.git/refs/remotes/origin/main'
+2025-07-18 17:21:25.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [109ms]
+2025-07-18 17:21:25.770 [info] > git rev-parse refs/remotes/origin/main [112ms]
+2025-07-18 17:21:25.777 [info] > git status -z -uall [4ms]
+2025-07-18 17:21:25.778 [info] > git merge-base refs/heads/main refs/remotes/origin/main [11ms]
+2025-07-18 17:21:25.786 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-07-18 17:21:25.793 [info] > git diff --name-status -z --diff-filter=ADMR b47da2f1aefd5ecd3a04aaf48b0ac5b8b779948b...refs/remotes/origin/main [11ms]
+2025-07-18 17:21:25.794 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2025-07-18 17:21:25.820 [info] > git diff --name-status -z --diff-filter=ADMR b47da2f1aefd5ecd3a04aaf48b0ac5b8b779948b...refs/remotes/origin/main [23ms]
+2025-07-18 17:21:26.646 [info] > git config --get --local branch.main.github-pr-owner-number [2ms]
+2025-07-18 17:21:26.646 [warning] [Git][config] git config failed: Failed to execute git

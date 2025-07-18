@@ -1,0 +1,48 @@
+sdf
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is ahead of 'origin/main' by 333 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	new file:   toms-website/.gitignore
+#	new file:   toms-website/README.md
+#	new file:   toms-website/client/assets/fonts/lato-bold.ttf
+#	new file:   toms-website/client/assets/fonts/lato-light.ttf
+#	new file:   toms-website/client/assets/fonts/roboto-bold.woff
+#	new file:   toms-website/client/assets/fonts/roboto-light.woff
+#	new file:   toms-website/client/assets/icons/CodeAlly.svg
+#	new file:   toms-website/client/assets/icons/CodeRoad.svg
+#	new file:   toms-website/client/assets/icons/freeCodeCamp.svg
+#	new file:   toms-website/client/assets/images/background.jpg
+#	new file:   toms-website/client/assets/images/footer.jpeg
+#	new file:   toms-website/client/assets/images/header.png
+#	new file:   toms-website/client/src/index.html
+#	new file:   toms-website/client/src/index.js
+#	new file:   toms-website/client/src/styles.css
+#	new file:   toms-website/package.json
+#	new file:   toms-website/server.js
+#	new file:   website-boilerplate/.gitignore
+#	new file:   website-boilerplate/README.md
+#	new file:   website-boilerplate/client/assets/fonts/lato-bold.ttf
+#	new file:   website-boilerplate/client/assets/fonts/lato-light.ttf
+#	new file:   website-boilerplate/client/assets/fonts/roboto-bold.woff
+#	new file:   website-boilerplate/client/assets/fonts/roboto-light.woff
+#	new file:   website-boilerplate/client/assets/icons/CodeAlly.svg
+#	new file:   website-boilerplate/client/assets/icons/CodeRoad.svg
+#	new file:   website-boilerplate/client/assets/icons/freeCodeCamp.svg
+#	new file:   website-boilerplate/client/assets/images/background.jpg
+#	new file:   website-boilerplate/client/assets/images/footer.jpeg
+#	new file:   website-boilerplate/client/assets/images/header.png
+#	new file:   website-boilerplate/client/src/index.html
+#	new file:   website-boilerplate/client/src/index.js
+#	new file:   website-boilerplate/client/src/styles.css
+#	new file:   website-boilerplate/package.json
+#	new file:   website-boilerplate/server.js
+#
+# Changes not staged for commit:
+#	modified:   freeCodeCamp/test/.cwd
+#	modified:   freeCodeCamp/test/.next_command
+#

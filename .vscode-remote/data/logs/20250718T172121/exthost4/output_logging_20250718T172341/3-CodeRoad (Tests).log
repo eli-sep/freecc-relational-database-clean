@@ -1,0 +1,158 @@
+FAILED TEST LOG
+  ✘ tests should pass
+
+Error: Could not find /workspace/.bash_history
+at getLastCommand (test/utils.js:14:11)
+at async Context.<anonymous> (test/5.test.js:6:25)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'cd' && /\/project\/freeCodeCamp$/.test(cwd))
+
+at Context.<anonymous> (test/30.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'pwd' && /\/project\/freeCodeCamp$/.test(cwd))
+
+at Context.<anonymous> (test/40.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'pwd' && /\/project\/freeCodeCamp\/test$/.test(cwd))
+
+at Context.<anonymous> (test/70.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'pwd' && /\/project\/freeCodeCamp\/test$/.test(cwd))
+
+at Context.<anonymous> (test/70.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'more' && correctArgument && /\/project\/freeCodeCamp$/.test(cwd))
+
+at Context.<anonymous> (test/110.test.js:10:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'cd' && /\/project\/freeCodeCamp\/node_modules$/.test(cwd))
+
+at Context.<anonymous> (test/140.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'more' && correctArgument && /\/project\/freeCodeCamp\/node_modules\/has$/.test(cwd))
+
+at Context.<anonymous> (test/181.test.js:10:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'clear')
+
+at Context.<anonymous> (test/184.test.js:8:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/freeCodeCamp\/node_modules\/has$/.test(cwd))
+
+at Context.<anonymous> (test/185.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/freeCodeCamp\/node_modules\/has$/.test(cwd))
+
+at Context.<anonymous> (test/185.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'ls' && /\/project\/freeCodeCamp\/node_modules\/has$/.test(cwd))
+
+at Context.<anonymous> (test/185.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'cd' && /\/project\/freeCodeCamp\/node_modules$/.test(cwd))
+
+at Context.<anonymous> (test/240.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'cd' && /\/project\/freeCodeCamp\/node_modules$/.test(cwd))
+
+at Context.<anonymous> (test/240.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(lastCommand[0] === 'cd' && /\/project\/freeCodeCamp\/node_modules$/.test(cwd))
+
+at Context.<anonymous> (test/240.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(checkMkdir || checkMV)
+
+at Context.<anonymous> (test/280.test.js:11:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(checkMkdir || checkMV)
+
+at Context.<anonymous> (test/530.test.js:11:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(websiteDirectory.indexOf('background.jpg') < 0 && lastCommand[0] === 'rm' && /background\.jpg$/.test(lastCommand[1]))
+
+at Context.<anonymous> (test/590.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(imagesDirectory.indexOf('header.png') >= 0 && lastCommand[0] === 'cp' && /header\.png$/.test(lastCommand[1]) && /images/.test(lastCommand[2]))
+
+at Context.<anonymous> (test/610.test.js:9:5)
+FAILED TEST LOG
+  ✘ tests should pass
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(filesAreCorrect && lastCommand[0] === 'mv' && /lato\.ttf$/.test(lastCommand[1]) && /fonts/.test(lastCommand[2]))
+
+at Context.<anonymous> (test/780.test.js:11:5)

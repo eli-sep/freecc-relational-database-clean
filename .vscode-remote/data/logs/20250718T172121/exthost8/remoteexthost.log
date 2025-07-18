@@ -1,0 +1,24 @@
+2025-07-18 18:52:39.827 [info] Extension host with pid 26052 started
+2025-07-18 18:52:39.827 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-6bcff9/vscode.lock': Lock acquired.
+2025-07-18 18:52:39.945 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-18 18:52:39.946 [info] ExtensionService#_doActivateExtension gitpod.gitpod-web, startup: false, activationEvent: 'onAuthenticationRequest:gitpod'
+2025-07-18 18:52:40.286 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-18 18:52:40.363 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-18 18:52:40.363 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-18 18:52:40.523 [info] Eager extensions activated
+2025-07-18 18:52:40.523 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-18 18:52:40.523 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-18 18:52:40.524 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2025-07-18 18:52:40.564 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+2025-07-18 18:52:40.741 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-07-18 18:52:41.311 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-18 18:52:41.312 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-18 18:52:41.312 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-18 18:52:41.563 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-07-18 18:52:41.564 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-07-18 18:53:03.408 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-07-18 18:56:43.495 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-07-18 18:56:43.496 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-07-18 18:57:09.813 [info] Extension host terminating: received terminate message from renderer
+2025-07-18 18:57:09.814 [info] Lock '/workspace/.vscode-remote/data/User/workspaceStorage/-6bcff9/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-07-18 18:57:09.835 [info] Extension host with pid 26052 exiting with code 0

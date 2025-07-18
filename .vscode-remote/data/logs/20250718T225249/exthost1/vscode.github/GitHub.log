@@ -1,0 +1,3 @@
+2025-07-18 22:52:52.246 [info] Log level: Info
+2025-07-18 22:52:52.506 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-07-18 22:53:04.988 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for eli-sep/freecc-relational-database-course: Error: No GitHub authentication session available.

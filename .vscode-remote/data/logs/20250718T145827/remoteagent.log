@@ -1,0 +1,34 @@
+2025-07-18 14:58:27.384 [info] 
+
+
+
+
+2025-07-18 14:58:27.398 [info] Extension host agent started.
+2025-07-18 14:58:27.409 [info] Started initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2025-07-18 14:58:27.492 [info] ComputeTargetPlatform: linux-x64
+2025-07-18 14:58:27.527 [info] Completed initializing default profile extensions in extensions installation folder. file:///workspace/.vscode-remote/extensions
+2025-07-18 14:58:27.547 [info] Extension 'gitpod.gitpod-theme' v0.0.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gitpod.gitpod-theme@1.2.3'.
+2025-07-18 14:58:27.552 [info] ComputeTargetPlatform: linux-x64
+2025-07-18 14:58:28.221 [info] [192.168.0.139][13c3ee9d][ManagementConnection] New connection established.
+2025-07-18 14:58:29.252 [info] [192.168.89.74][3bf57384][ExtensionHostConnection] New connection established.
+2025-07-18 14:58:29.256 [info] [192.168.89.74][3bf57384][ExtensionHostConnection] <137> Launched Extension Host Process.
+2025-07-18 14:58:30.367 [info] Installing builtin extension 'github.vscode-pull-request-github'...
+2025-07-18 14:58:30.612 [info] Getting Manifest... github.vscode-pull-request-github
+2025-07-18 14:58:30.962 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":true,"installPreReleaseVersion":false,"isBuiltin":true,"installGivenVersion":false,"isApplicationScoped":true,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.101.2","date":"2025-06-26T07:57:30.404Z"}}
+2025-07-18 14:58:31.182 [error] #6: https://open-vsx.org/vscode/gallery/vscode/github-authentication/latest - error GET connect ECONNREFUSED 127.0.0.1:80
+2025-07-18 14:58:31.182 [error] Error while getting the latest version for the extension vscode.github-authentication. connect ECONNREFUSED 127.0.0.1:80
+2025-07-18 14:58:32.634 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.112.0-universal: github.vscode-pull-request-github
+2025-07-18 14:58:32.640 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.112.0-universal
+2025-07-18 14:58:32.655 [info] Extension installed successfully: github.vscode-pull-request-github file:///workspace/.vscode-remote/extensions/extensions.json
+2025-07-18 14:58:32.657 [info] Extension 'github.vscode-pull-request-github' v0.112.0 was successfully installed.
+2025-07-18 14:58:32.660 [info] Installing extensions...
+2025-07-18 14:58:33.164 [info] Installing extension 'coderoad.coderoad'...
+2025-07-18 14:58:33.164 [info] Getting Manifest... coderoad.coderoad
+2025-07-18 14:58:33.514 [info] Installing extension: coderoad.coderoad {"isMachineScoped":true,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/workspace/.vscode-remote/extensions/extensions.json","external":"file:///workspace/.vscode-remote/extensions/extensions.json","path":"/workspace/.vscode-remote/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.101.2","date":"2025-06-26T07:57:30.404Z"}}
+2025-07-18 14:58:34.217 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal: coderoad.coderoad
+2025-07-18 14:58:34.222 [info] Renamed to /workspace/.vscode-remote/extensions/coderoad.coderoad-0.19.4-universal
+2025-07-18 14:58:34.284 [info] Extension installed successfully: coderoad.coderoad file:///workspace/.vscode-remote/extensions/extensions.json
+2025-07-18 14:58:34.285 [info] Extension 'coderoad.coderoad' v0.19.4 was successfully installed.
+2025-07-18 15:01:02.577 [info] [192.168.86.137][3bf57384][ExtensionHostConnection] The client has reconnected.
+2025-07-18 15:01:02.738 [info] [192.168.86.137][13c3ee9d][ManagementConnection] The client has reconnected.
+2025-07-18 15:17:59.100 [info] [192.168.86.137][13c3ee9d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

@@ -1,0 +1,65 @@
+coderoad v0.19.4
+STATE: "Setup.Startup"
+ROUTE: "Setup.Startup": On level unknown, step unknown
+EDITOR_STARTUP
+Using tutorial url from env: https://raw.githubusercontent.com/freeCodeCamp/learn-bash-by-building-a-boilerplate/main/tutorial.json
+Tutorial: Learn Bash by Building a Boilerplate (2.0.0)
+START_TUTORIAL_FROM_URL
+EDITOR_TUTORIAL_CONFIG
+Calling command: node --version
+STATE: "Setup.SetupNewTutorial"
+ROUTE: "Setup.SetupNewTutorial": On level unknown, step unknown
+Workspace path: /workspace/project/.git
+Check file exists: /workspace/project/.git
+Calling command: git ls-remote --exit-code --heads https://github.com/freeCodeCamp/learn-bash-by-building-a-boilerplate
+Calling command: git ls-remote --exit-code --heads https://github.com/freeCodeCamp/learn-bash-by-building-a-boilerplate v2.0.0
+Calling command: git remote -v
+Calling command: git remote add coderoad https://github.com/freeCodeCamp/learn-bash-by-building-a-boilerplate && git fetch coderoad
+Calling command: git log -n 1 --pretty=format:%s 505ee3be482841a2fae70e3cb4119dbeb5428291
+Calling command: git log -g --grep='INIT'
+Calling command: git cherry-pick -X theirs 505ee3be482841a2fae70e3cb4119dbeb5428291
+Command: ./freeCodeCamp/setup.sh
+COMMAND_START
+Calling command: ./freeCodeCamp/setup.sh
+Command output: 
+COMMAND_SUCCESS
+Command: cd freeCodeCamp && npm install
+COMMAND_START
+Calling command: cd freeCodeCamp && npm install
+STATE: "Setup.SetupNewTutorial"
+ROUTE: "Setup.SetupNewTutorial": On level unknown, step unknown
+STATE: "Setup.SetupNewTutorial"
+ROUTE: "Setup.SetupNewTutorial": On level unknown, step unknown
+STATE: "Setup.SetupNewTutorial"
+ROUTE: "Setup.SetupNewTutorial": On level unknown, step unknown
+Command failed: npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm WARN deprecated flat@4.1.0: Fixed a prototype pollution security issue in 4.1.0, please upgrade to ^4.1.1 or ^5.0.1.
+npm WARN deprecated glob@7.1.3: Glob versions prior to v9 are no longer supported
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm notice 
+npm notice New major version of npm available! 10.2.3 -> 11.4.2
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v11.4.2>
+npm notice Run `npm install -g npm@11.4.2` to update!
+npm notice 
+
+COMMAND_FAIL
+TUTORIAL_CONFIGURED
+STATE: "Setup.SetupNewTutorial"
+ROUTE: "Setup.SetupNewTutorial": On level unknown, step unknown
+STATE: "Setup.StartTutorial"
+ROUTE: "Setup.StartTutorial": On level 5, step 5.1
+EDITOR_LEVEL_ENTER
+EDITOR_STEP_ENTER
+STATE: "Tutorial.Level.Load"
+ROUTE: "Tutorial.Level.Load": On level 5, step 5.1
+STATE: "Tutorial.Level.Normal"
+ROUTE: "Tutorial.Level.Normal": On level 5, step 5.1
+Calling command: git log -n 1 --pretty=format:%s 2d4ec65ef9a39bb38764d3c59f6390b79ec3f712
+Calling command: git log -g --grep='5.1'
+Calling command: git cherry-pick -X theirs 2d4ec65ef9a39bb38764d3c59f6390b79ec3f712

@@ -1,0 +1,43 @@
+[14.98µs] Shutting down all processes 
+[622.93µs] Terminating process supervisor with PID 37 (state: S, cmdlind: [supervisor run] <nil>). 
+[40.138162ms] Terminating main process errored: waitid: no child processes 
+[40.633702ms] Terminating process node with PID 33003 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=32926] <nil>). 
+[40.636151ms] Terminating process node with PID 27211 (state: R, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[40.673442ms] Terminating process bash with PID 26106 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh] <nil>). 
+[40.794511ms] Terminating process node with PID 75 (state: S, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --install-extension coderoad.coderoad --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[40.803961ms] Terminating process bash with PID 27050 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh] <nil>). 
+[40.920951ms] Terminating process node with PID 29762 (state: S, cmdlind: [/home/gitpod/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/node /home/gitpod/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[40.924931ms] Terminating process node with PID 27290 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=27211] <nil>). 
+[40.968231ms] Terminating process bash with PID 26721 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh] <nil>). 
+[41.027311ms] Terminating process node with PID 27222 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[41.074801ms] Terminating main process errored: waitid: no child processes 
+[41.089911ms] Terminating process sh with PID 29728 (state: S, cmdlind: [sh /home/gitpod/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/bin/code-server --connection-token=remotessh --accept-server-license-terms --install-extension=gitpod.gitpod-remote-ssh --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-10419321-38d5-41a8-ac0b-e7f1abe5ab55] <nil>). 
+[41.117581ms] Terminating main process errored: waitid: no child processes 
+[41.120491ms] Terminating process node with PID 29732 (state: S, cmdlind: [/home/gitpod/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/node /home/gitpod/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/out/server-main.js --connection-token=remotessh --accept-server-license-terms --install-extension=gitpod.gitpod-remote-ssh --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-10419321-38d5-41a8-ac0b-e7f1abe5ab55] <nil>). 
+[41.126821ms] Terminating process node with PID 27244 (state: S, cmdlind: [/ide/node /ide/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=27211] <nil>). 
+[41.160041ms] Terminating process node with PID 158 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20250718T172121] <nil>). 
+[41.211861ms] Terminating process node with PID 32959 (state: S, cmdlind: [/ide/node /ide/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=32926] <nil>). 
+[41.233441ms] Terminating process node with PID 29779 (state: S, cmdlind: [/home/gitpod/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/node /home/gitpod/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/out/bootstrap-fork --type=ptyHost --logsPath /home/gitpod/.vscode-server/data/logs/20250718T191130] <nil>). 
+[41.258521ms] Terminating process bash with PID 29911 (state: S, cmdlind: [/bin/bash --init-file /home/gitpod/.vscode-server/cli/servers/Stable-7adae6a56e34cb64d08899664b814cf620465925/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh] <nil>). 
+[41.258571ms] Terminating process node with PID 32926 (state: R, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[45.20543ms] Terminating main process errored: waitid: no child processes 
+[41.299411ms] Terminating process node with PID 32937 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[45.50474ms] Terminating main process errored: waitid: no child processes 
+[45.57942ms] Terminating main process errored: waitid: no child processes 
+[45.84071ms] Terminating main process errored: waitid: no child processes 
+[46.28419ms] Terminating main process errored: waitid: no child processes 
+[46.83243ms] Terminating main process errored: waitid: no child processes 
+[47.00339ms] Terminating main process errored: waitid: no child processes 
+[47.00641ms] Terminating main process errored: waitid: no child processes 
+[47.08343ms] Terminating main process errored: waitid: no child processes 
+[47.2896ms] Terminating main process errored: waitid: no child processes 
+[52.334899ms] Terminating main process errored: waitid: no child processes 
+[54.134958ms] Terminating main process errored: waitid: no child processes 
+[58.358067ms] Terminating main process errored: waitid: no child processes 
+[115.537335ms] Terminating main process errored: waitid: no child processes 
+[155.764997ms] Terminating main process errored: waitid: no child processes 
+[156.230497ms] Process node with PID 27222 is a zombie, skipping termination. 
+[156.254197ms] Process node with PID 32926 is a zombie, skipping termination. 
+[156.267386ms] Couldn't obtain process information for PID 27211. 
+[156.247546ms] Process node with PID 32937 is a zombie, skipping termination. 
+[157.897956ms] Finished shutting down all processes. 
